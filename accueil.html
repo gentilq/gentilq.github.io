@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Quentin Gentil</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#home" class="nav-link">Accueil</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projets</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">Loisirs</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        <!-- Home Section -->
+        <section id="home" class="section home">
+            <div class="container">
+                <h1 class="hero-title fade-in">Quentin Gentil</h1>
+                <p class="hero-subtitle fade-in">Étudiant BUT Informatique - 1ère année</p>
+                <div class="skills-showcase">
+                    <div class="skill-card fade-in">
+                        <h3>🎓 Formation</h3>
+                        <p>BUT Informatique 1ère année<br>(IUT2 Grenoble)</p>
+                        <p>BAC Général - Mathématiques, NSI<br>(Lycée Polyvalent Ferdinand Buisson)</p>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <h3>💻 Compétences</h3>
+                        <p>HTML/CSS, Java, Python, SQL</p>
+                        <p>Administration système, Algorithmique</p>
+                        <p>Git, Travail collaboratif</p>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <h3>📄 CV</h3>
+                        <p>(Sera fait en 2ème année)</p>
+                        <a href="#" class="cv-button">Consulter mon CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="section-title fade-in">Mes Projets</h2>
+                <div class="projects-grid">
+                    <a href="#sae-101" class="project-card fade-in">
+                        <h3>SAE 1.01/2 - Implémentation d'un besoin client</h3>
+                        <p>Développement d'un programme d'analyse de dépêches afin d'en retrouver le sujet principal.</p>
+                        <p class="project-tech"><strong>Technologies :</strong> Java (IntelliJ IDEA)</p>
+                    </a>
+                    <a href="#sae-200" class="project-card fade-in">
+                        <h3>SAE 2.0[1256] - Outil de pilotage d'événements</h3>
+                        <p>Conception et développement d'une application de gestion d'événements pour les copropriétés.</p>
+                        <p class="project-tech"><strong>Technologies :</strong> Java (JavaFX), Git, Visual Paradigm</p>
+                    </a>
+                    <a href="./sae-203.html" class="project-card fade-in">
+                        <h3>SAE 2.03 - Installation de services réseau</h3>
+                        <p>Configuration d'un serveur en ligne de commandes paramétré avec Apache2, PHP et PostgreSQL.</p>
+                        <p class="project-tech"><strong>Technologies :</strong> Linux (Debian 12), PostgreSQL, Apache2, PHP</p>
+                    </a>
+                    <a href="#sae-204" class="project-card fade-in">
+						<h3>SAE 2.04 - Exploitation d’une base de données</h3>
+						<p>Exploration, nettoyage et transformations d'une base de données d'accidents de la route; production et analyse de graphiques.</p>
+						<p class="project-tech"><strong>Technologies :</strong> SQL (PostgreSQL), R</p>
+                    </a>
+				
+                    <a href="#puissance-4" class="project-card fade-in">
+						<h3>Mini-projet 1ère - Puissance 4</h3>
+						<p>Création d'un jeu de Puissance 4 jouable à deux joueurs avec une interface graphique</p>
+						<p class="project-tech"><strong>Technologies :</strong> Python (Tkinter)</p>
+                    </a>
+					
+					<a href="#jukebox" class="project-card fade-in">
+						<h3>Projet personnel - Jukebox</h3>
+						<p>Application de pilotage d'une jukebox sur un Raspberry Pi</p>
+						<p class="project-tech"><strong>Technologies :</strong> Python, Raspberry Pi</p>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section-title fade-in">Loisirs</h2>
+                <div class="about-content">
+                    <div class="interests-grid">
+                        <div class="interest-card fade-in">
+                            <h4>🎮 Jeux vidéos</h4>
+                            <p>J'aime énormément explorer des jeux en détail et passe beaucoup de mon temps libre à jouer. Plutôt que de l'action, je préfère des jeux avec une histoire riche ou alors beaucoup de contenu à explorer (le meilleur équilibre entre les deux pour moi étant Pokémon).</p>
+                        </div>
+                        <div class="interest-card fade-in">
+                            <h4>🎨 Anime & Manga</h4>
+                            <p>C'est une scène (assez oubliable) "La Mélancolie de Haruhi Suzumiya" qui m'a rendu curieux de ce qu'était la programmation.</p>
+                        </div>
+                        <div class="interest-card fade-in">
+                            <h4>🎵 Musique</h4>
+                            <p>Je suis batteur, j'ai appris à l'Ecole de musique de Vinay pendant une dizaine d'années, mais j'ai dû arrêter par manque de temps avec les études. J'écoute principalement des musiques faites pour des jeux ou des anime, et j'aime à peu près tout sauf la phonk et le country.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Footer -->
+        <footer id="contact" class="section contact">
+            <div class="container">
+                <div class="contact-container">
+                    <h2 class="section-title fade-in">Contact</h2>
+                    <p class="fade-in">N'hésitez pas à me contacter !</p>
+                    <div class="contact-links">
+                        <a href="mailto:quentin.gentil38@gmail.com" class="contact-link fade-in">
+                            <span>📧</span> Email
+                        </a>
+                        <a href="http://linkedin.com/in/quentin-gentil-1a565736a" class="contact-link fade-in" target="_blank">
+                            <span>💼</span> LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+	<script src="script.js"></script>
+</body>
+</html>
